@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSDP | Assignment</title>
+    <link rel="shortcut icon" href="Images/YSDP.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(215, 173, 253);
+            width: 99.5%;
+            margin: 3px;
+            padding: 0;
+        }
+        
+        .container {
+            width: inherit;
+            height: 108px;
+            background-color: rgb(136, 0, 255);
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        
+        .items {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(224, 122, 122);
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 2px;
+        }
+        
+        .flexStart {
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .flexEnd {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .flexCenter {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .spaceBetween {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .spaceAround {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .spaceEvenly {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    Flex-Start
+    <div class="flexStart container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+    <hr> Flex-End
+    <div class="flexEnd container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+
+    <hr> Flex-Center
+    <div class="flexCenter container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+
+    <hr> Flex-Between
+    <div class="spaceBetween container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+
+    <hr> Flex-Around
+    <div class="spaceAround container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+
+    <hr> Flex-Evenly
+    <div class="spaceEvenly container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+
+</body>
+
+</html>
